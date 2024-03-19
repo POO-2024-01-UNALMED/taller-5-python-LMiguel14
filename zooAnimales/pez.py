@@ -13,7 +13,7 @@ class Pez(Animal):
 
 
         #get
-    def getColorEscama(self):
+    def getColorEscamas(self):
         return self._colorEscama
     def getCantidadAletas(self):
         return self._cantidadAletas
@@ -25,7 +25,7 @@ class Pez(Animal):
     
     def movimiento(self):
         pass
-    
+
     @classmethod
     def cantidadAnfibios(self):
         return len(Pez._listado)

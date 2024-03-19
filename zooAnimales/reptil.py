@@ -13,9 +13,9 @@ class Reptil(Animal):
 
         #get
     def getColorEscamas(self):
-        return self._pelaje
+        return self._colorEscamas
     def getLargoCola(self):
-        return self._patas
+        return self._largoCola
     #set
     def setColorEscamas(self, new):
         self._colorEscamas = new
