@@ -29,8 +29,7 @@ class Anfibio(Animal):
     @classmethod
     def crearRana(cls, nombre, edad, gener, colorPiel = "rojo", venenoso = True, habitat= "selva"):
         Anfibio.ranas +=1
-        cls(nombre, edad, gener, habitat, colorPiel, venenoso)
-        
+        cls(nombre, edad, gener, habitat, colorPiel, venenoso)   
 
     @classmethod
     def crearSalamandra(cls, nombre, edad, gener, colorPiel = "negro y amarillo", venenoso = False, habitat= "selva"):
